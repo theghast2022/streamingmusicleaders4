@@ -36,4 +36,4 @@ if (message.content.startsWith(adminprefix + 'setavatar')) {
 }
 });
 
- client.login("NTExNjU0NzIzNjI4MzAyMzQw.Ds3zgw.11pTsCqQRpqZemtr-yd_AadB6yk"); //التوكن حقك
+ client.login(process.env.BOT_TOKEN); //التوكن حقك
